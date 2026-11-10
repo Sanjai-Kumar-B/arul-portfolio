@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sanjai Kumar B | Full Stack & AI/ML Engineer",
+  title: "Arulkumar V | Full-Stack, Embedded Systems & Blockchain Engineer",
   description:
-    "Portfolio of Sanjai Kumar B - Computer Science & Business Systems Engineer specializing in Full Stack Development, Data Structures, and AI/ML.",
+    "Portfolio of Arulkumar V - EEE undergraduate building full-stack web apps, blockchain systems, and IoT hardware.",
   icons: {
     icon: "/favicon.svg",
   },

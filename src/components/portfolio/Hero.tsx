@@ -170,11 +170,11 @@ export function Hero() {
 
   const marqueeItems = [
     "FULL STACK DEVELOPMENT",
-    "AI & MACHINE LEARNING",
-    "REACT.JS & FLASK",
-    "DATA STRUCTURES & ALGORITHMS",
-    "PYTHON & JAVA",
-    "CLOUD & DATABASES",
+    "EMBEDDED SYSTEMS & IoT",
+    "REACT.JS & NODE.JS",
+    "BLOCKCHAIN & SMART ENERGY",
+    "JAVA & SPRING BOOT",
+    "MATLAB & SIMULINK",
   ];
 
   const renderMarqueeContent = () => (
@@ -244,7 +244,7 @@ export function Hero() {
             ref={subtitleRef}
             className="text-[#a31515] font-bold uppercase text-xs md:text-sm tracking-[0.2em] opacity-0"
           >
-            CSBS Undergrad • Full Stack &amp; AI/ML Engineer
+            EEE Undergrad • Full-Stack, Embedded Systems &amp; Blockchain
           </span>
 
           <h1
@@ -252,9 +252,9 @@ export function Hero() {
             className="text-gray-900 text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-none opacity-0 italic uppercase"
             style={{ textShadow: "4px 4px 0px #ef4444, 7px 7px 0px #a31515" }}
           >
-            SANJAI
+            ARULKUMAR
             <br />
-            KUMAR B.
+            V.
           </h1>
 
           <div ref={buttonsRef} className="flex flex-wrap items-center gap-4 mt-6 pointer-events-auto">

@@ -52,67 +52,74 @@ export function Education() {
 
   const education = [
     {
-      institution: "Excel Engineering College (Autonomous)",
-      degree: "B.Tech – Computer Science and Business Systems (CSBS)",
+      institution: "Excel Engineering College",
+      degree: "B.E. – Electrical and Electronics Engineering",
       duration: "2023 – 2027",
-      score: "CGPA 8.0",
-      detail: "Final Year (2026–2027). Core curriculum covering Data Structures, Full Stack Web Architecture, Machine Learning, and Enterprise Business Systems.",
+      score: "CGPA 7.7",
+      detail: "Final Year. Core curriculum covering Embedded Systems, Control Systems, Power Electronics, and Software Engineering.",
       badge: "Undergraduate",
     },
     {
-      institution: "Little Flower Matriculation HSS",
-      degree: "Higher Secondary Certificate (HSC)",
-      duration: "2021 – 2023",
-      score: "80%",
-      detail: "Salem, Tamil Nadu. Concentrated in Mathematics, Physics, Chemistry, and Computer Science.",
+      institution: "Jayaseelan Memorial Matric Higher Secondary School",
+      degree: "Higher Secondary Certificate (HSC) – State Board",
+      duration: "2022 – 2023",
+      score: "71.5%",
+      detail: "Concentrated in Mathematics, Physics, Chemistry, and Computer Science.",
       badge: "High School",
-    },
-    {
-      institution: "Sri Vidya Mandir HSS",
-      degree: "Secondary School Leaving Certificate (SSLC)",
-      duration: "2020 – 2021",
-      score: "75%",
-      detail: "Salem, Tamil Nadu. Foundational academic education with focus on Science and Mathematics.",
-      badge: "Secondary",
     },
   ];
 
   const certifications = [
     {
-      title: "Programming using Java",
-      issuer: "Infosys Springboard",
-      icon: "☕",
-      highlight: "Core Java programming principles, OOP concepts, algorithms, and modular design.",
+      title: "MATLAB, Simulink & Simscape Onramp",
+      issuer: "MathWorks",
+      date: "2026",
+      icon: "📐",
+      highlight: "MATLAB programming, Simulink modeling, and Simscape physical simulation fundamentals.",
     },
     {
-      title: "Data Structures using Java",
-      issuer: "Infosys Springboard",
-      icon: "⚡",
-      highlight: "Linear and non-linear data structures, trees, graphs, sorting, and complexity analysis.",
-    },
-    {
-      title: "Data Structures and Algorithms using Java",
-      issuer: "NPTEL / IIT",
-      icon: "📜",
-      highlight: "Rigorous academic certification on algorithmic problem solving, recursion, and dynamic programming.",
-    },
-    {
-      title: "Go for Gold L&D Program",
-      issuer: "Accenture",
+      title: "TCS iON NQT, Cognitive (74.13%)",
+      issuer: "TCS iON",
+      date: "Jul 2026",
       icon: "🏆",
-      highlight: "Corporate learning & professional software engineering development training.",
+      highlight: "National Qualifier Test covering cognitive and quantitative aptitude for employability assessment.",
     },
     {
-      title: "Software Engineering Job Simulation",
-      issuer: "Forage",
-      icon: "💼",
-      highlight: "Practical simulation of real-world developer workflows, code reviews, and system architecture.",
+      title: "Introduction to IIoT & Blockchain and Its Application",
+      issuer: "NPTEL (Elite)",
+      date: "2025",
+      icon: "📜",
+      highlight: "Industrial IoT architectures, blockchain fundamentals, and their industrial application use cases.",
     },
     {
-      title: "Active DSA & Competitive Coding",
-      issuer: "Interview Prep & Coding Platforms",
-      icon: "🎯",
-      highlight: "Consistent problem solving, algorithmic challenges, and technical interview preparation.",
+      title: "HVAC Skill Enhancement Program",
+      issuer: "Daikin India, A.C.D.C. Training Center",
+      date: "Jul 2025",
+      icon: "❄️",
+      highlight: "Hands-on HVAC systems training covering installation, maintenance, and troubleshooting.",
+    },
+  ];
+
+  const achievements = [
+    {
+      title: "Finalist, EDII-TN Hackathon 2023-24",
+      icon: "🏅",
+      highlight: "Recognized for an innovative engineering project at the state-level hackathon.",
+    },
+    {
+      title: "Finalist, MSME Hackathon 5.0 (India)",
+      icon: "🚀",
+      highlight: "Selected for the final round of the national MSME innovation competition.",
+    },
+    {
+      title: "Top 255, AICTE & MIC IDEA Bootcamp (E² Phase 2)",
+      icon: "💡",
+      highlight: "Shortlisted among the top innovative startup ideas across India.",
+    },
+    {
+      title: "IEEE Student Member",
+      icon: "⚡",
+      highlight: "Active in technical events, workshops, and professional development through IEEE.",
     },
   ];
 
@@ -179,6 +186,33 @@ export function Education() {
               </div>
             </div>
           ))}
+
+          {/* Achievements */}
+          <div className="flex items-center gap-2 mb-2 mt-4">
+            <span className="w-2.5 h-2.5 rounded-full bg-[#a31515]" />
+            <h3 className="text-base font-black uppercase tracking-wider text-gray-900">
+              Achievements
+            </h3>
+          </div>
+
+          {achievements.map((item, index) => (
+            <div
+              key={index}
+              className="edu-item group bg-white border border-gray-200 hover:border-[#a31515] p-4 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex items-start gap-3.5"
+            >
+              <div className="w-9 h-9 rounded-lg bg-red-50 text-base flex items-center justify-center shrink-0 border border-red-100">
+                {item.icon}
+              </div>
+              <div className="flex-1">
+                <h5 className="text-xs md:text-sm font-black text-gray-900 group-hover:text-[#a31515] transition-colors uppercase">
+                  {item.title}
+                </h5>
+                <p className="text-[11px] text-gray-500 font-medium mt-1 leading-relaxed">
+                  {item.highlight}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Certifications & Badges */}
@@ -186,7 +220,7 @@ export function Education() {
           <div className="flex items-center gap-2 mb-2">
             <span className="w-2.5 h-2.5 rounded-full bg-[#a31515]" />
             <h3 className="text-base font-black uppercase tracking-wider text-gray-900">
-              Certifications &amp; Achievements
+              Certifications
             </h3>
           </div>
 
@@ -205,9 +239,12 @@ export function Education() {
                       {cert.title}
                     </h5>
                   </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#a31515] block mt-0.5">
-                    {cert.issuer}
-                  </span>
+                  <div className="flex items-center gap-2 mt-0.5">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-[#a31515] block">
+                      {cert.issuer}
+                    </span>
+                    <span className="text-[10px] text-gray-400 font-semibold">{cert.date}</span>
+                  </div>
                   <p className="text-[11px] text-gray-500 font-medium mt-1 leading-relaxed">
                     {cert.highlight}
                   </p>
@@ -220,4 +257,3 @@ export function Education() {
     </section>
   );
 }
-

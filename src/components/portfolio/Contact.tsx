@@ -83,8 +83,8 @@ export function Contact() {
   const contactMethods = [
     {
       title: "Email",
-      value: "ksanjai427@gmail.com",
-      href: "mailto:ksanjai427@gmail.com",
+      value: "v.arulkumar07@gmail.com",
+      href: "mailto:v.arulkumar07@gmail.com",
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -98,8 +98,8 @@ export function Contact() {
     },
     {
       title: "Phone",
-      value: "+91 63822 72797",
-      href: "tel:+916382272797",
+      value: "+91 95645 58630",
+      href: "tel:+919564558630",
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -113,8 +113,8 @@ export function Contact() {
     },
     {
       title: "LinkedIn",
-      value: "linkedin.com/in/sanjaikumarb",
-      href: "https://linkedin.com/in/sanjaikumarb",
+      value: "linkedin.com/in/arulkumar-v",
+      href: "https://linkedin.com/in/arulkumar-v",
       icon: (
         <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
           <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.46 1.46 0 1 0 0-2.92 1.46 1.46 0 0 0 0 2.92M7.86 18.5v-8.37H5.07v8.37h2.79z" />
@@ -123,8 +123,8 @@ export function Contact() {
     },
     {
       title: "GitHub",
-      value: "github.com/Sanjai-Kumar-B",
-      href: "https://github.com/Sanjai-Kumar-B",
+      value: "github.com/Arulkumar-07",
+      href: "https://github.com/Arulkumar-07",
       icon: (
         <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
           <path
@@ -223,7 +223,7 @@ export function Contact() {
               Message Sent!
             </h3>
             <p className="text-sm text-gray-600 font-medium">
-              Thanks for reaching out, Sanjai will get back to you shortly.
+              Thanks for reaching out, Arulkumar will get back to you shortly.
             </p>
           </div>
         ) : (
@@ -236,7 +236,7 @@ export function Contact() {
                 <input
                   required
                   type="text"
-                  placeholder="Peter Parker"
+                  placeholder="Your Name"
                   className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm font-medium focus:outline-none focus:border-[#a31515] focus:ring-1 focus:ring-[#a31515] transition-all"
                 />
               </div>
@@ -247,7 +247,7 @@ export function Contact() {
                 <input
                   required
                   type="email"
-                  placeholder="peter@stark.com"
+                  placeholder="your@email.com"
                   className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm font-medium focus:outline-none focus:border-[#a31515] focus:ring-1 focus:ring-[#a31515] transition-all"
                 />
               </div>
@@ -277,7 +277,7 @@ export function Contact() {
 
       {/* Footer */}
       <footer className="mt-16 text-center text-xs text-gray-500 font-medium z-10 flex flex-col items-center gap-1">
-        <p>© {new Date().getFullYear()} Sanjai Kumar B. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Arulkumar V. All Rights Reserved.</p>
         <p className="text-[11px] text-gray-400">
           Built with Next.js, Tailwind CSS, &amp; GSAP Animations • Spider-Man Themed Portfolio
         </p>

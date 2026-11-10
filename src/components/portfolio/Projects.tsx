@@ -77,44 +77,20 @@ export function Projects() {
 
   const projects = [
     {
-      title: "Resume Ranker",
-      subtitle: "AI-Powered ATS Analysis Platform",
+      title: "MergeSync",
+      subtitle: "Real-Time Collaborative Code Management Platform",
       description:
-        "AI-powered resume screening and ranking platform featuring a React frontend and Flask backend for ATS-style resume analysis, keyword extraction, and automated candidate evaluation.",
-      tags: ["React.js", "Flask", "AI/ML", "Python", "NLP"],
-      link: "https://github.com/Sanjai-Kumar-B",
+        "Git-inspired collaborative code platform with independent workspaces and conflict resolution. Includes RESTful APIs for projects, developer assignments, submissions, and conflict detection, plus real-time collaborative editing and chat with role-based access control.",
+      tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.IO", "Monaco Editor"],
+      link: "https://github.com/Arulkumar-07",
     },
     {
-      title: "Fake Website Detector",
-      subtitle: "Phishing Detection Machine Learning System",
+      title: "AI-Assisted Blockchain-Based Smart Energy Meter",
+      subtitle: "IoT & Blockchain Energy Management",
       description:
-        "Robust cybersecurity system detecting phishing and fraudulent websites using trained ML classifiers. Features real-time URL heuristic analysis and an intuitive user interface.",
-      tags: ["Python", "Flask", "Machine Learning", "Scikit-Learn"],
-      link: "https://github.com/Sanjai-Kumar-B",
-    },
-    {
-      title: "AI Eye Tracking System",
-      subtitle: "Computer Vision Gaze Detection",
-      description:
-        "High-precision computer vision application for real-time gaze detection and pupil tracking, engineered specifically for accessibility and hands-free interaction applications.",
-      tags: ["Python", "OpenCV", "Computer Vision", "AI"],
-      link: "https://github.com/Sanjai-Kumar-B",
-    },
-    {
-      title: "Datathon CIT",
-      subtitle: "Real-World Analytical Reporting",
-      description:
-        "End-to-end dataset preprocessing, statistical visualization, and analytical reporting on complex datasets, delivering predictive insights for data-driven strategic decisions.",
-      tags: ["Python", "Data Analytics", "Pandas", "Matplotlib"],
-      link: "https://github.com/Sanjai-Kumar-B",
-    },
-    {
-      title: "SAIL Java Management System",
-      subtitle: "Enterprise CRUD & Database Management",
-      description:
-        "Java-based management system featuring full CRUD operations, transactional MySQL database integration, and an extensible OOP-based backend architecture.",
-      tags: ["Java", "MySQL", "OOP", "Database Design"],
-      link: "https://github.com/Sanjai-Kumar-B",
+        "Smart energy management system with blockchain-secured energy records, AI-based consumption prediction, and real-time smart meter data processing. Integrates IoT meter data with secure billing and consumption analytics.",
+      tags: ["Java", "Spring Boot", "MySQL", "Blockchain", "ESP32"],
+      link: "https://github.com/Arulkumar-07",
     },
   ];
 
@@ -169,7 +145,7 @@ export function Projects() {
             target="_blank"
             rel="noopener noreferrer"
             className={`project-item group relative bg-gray-50/90 backdrop-blur-sm border border-gray-200 hover:border-[#a31515] p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden shadow-sm hover:shadow-[0_10px_25px_rgba(163,21,21,0.15)] transform hover:-translate-y-1 block ${
-              index === 4 ? "sm:col-span-2" : ""
+              index === 1 ? "sm:col-span-2" : ""
             }`}
           >
             {/* Top red border accent line animated on hover */}

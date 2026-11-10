@@ -129,17 +129,17 @@ export function About() {
   }, []);
 
   const techStack = [
-    "Python",
     "Java",
     "JavaScript",
     "React.js",
     "Node.js",
-    "Flask",
+    "Spring Boot",
+    "MongoDB",
     "MySQL",
-    "Firebase",
-    "Supabase",
+    "ESP32 & IoT",
+    "Blockchain",
+    "MATLAB & Simulink",
     "Git & GitHub",
-    "DSA & OOP",
   ];
 
   return (
@@ -197,7 +197,7 @@ export function About() {
               className="text-4xl md:text-5xl lg:text-7xl font-black tracking-tighter uppercase italic text-gray-900"
               style={{ textShadow: "2px 2px 0px #fca5a5" }}
             >
-              Sanjai Kumar B.
+              Arulkumar V.
             </h2>
           </div>
 
@@ -207,32 +207,34 @@ export function About() {
             style={{ perspective: "1000px" }}
           >
             <p className="origin-bottom">
-              Motivated Computer Science and Business Systems undergraduate with strong foundations
-              in full stack development, data structures, and AI/ML concepts.
+              I&apos;m a final-year Electrical and Electronics Engineering student with strong
+              expertise in embedded systems, software engineering, and core electrical control
+              systems.
             </p>
             <p className="origin-bottom">
-              Skilled in developing scalable web applications using React.js, Node.js, Flask,
-              Firebase, and modern development tools. Passionate about problem solving, software
-              engineering, and building impactful technology solutions that make a real difference.
+              I&apos;ve worked on full-stack feature development, firmware integration, and
+              hardware-software diagnostics through startup developer roles and industrial
+              internships. As an active IEEE Student Member, I enjoy fast-paced software
+              development, analytical problem solving, and working with cross-functional teams.
             </p>
           </div>
 
           {/* Quick contact tags */}
           <div className="flex flex-wrap items-center gap-3 text-xs font-semibold text-gray-600 pt-1">
             <a
-              href="mailto:ksanjai427@gmail.com"
+              href="mailto:v.arulkumar07@gmail.com"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-gray-200 rounded-lg hover:border-[#a31515] hover:text-[#a31515] transition-colors"
             >
-              <span>📧</span> ksanjai427@gmail.com
+              <span>📧</span> v.arulkumar07@gmail.com
             </a>
             <a
-              href="tel:+916382272797"
+              href="tel:+919564558630"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-gray-200 rounded-lg hover:border-[#a31515] hover:text-[#a31515] transition-colors"
             >
-              <span>📱</span> +91 63822 72797
+              <span>📱</span> +91 95645 58630
             </a>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-gray-200 rounded-lg">
-              <span>📍</span> Tamil Nadu, India
+              <span>📍</span> Dindigul, Tamil Nadu, India
             </span>
           </div>
 
@@ -267,15 +269,15 @@ export function About() {
                   className="w-20 h-20 object-contain drop-shadow-[0_0_15px_rgba(239,68,68,0.8)] mb-3 animate-pulse-slow"
                 />
                 <h4 className="text-xl font-black uppercase tracking-tight text-white">
-                  SANJAI KUMAR B
+                  ARULKUMAR V
                 </h4>
                 <p className="text-xs text-red-400 font-bold uppercase tracking-widest mt-1">
-                  Full Stack • AI/ML
+                  Full Stack • IoT • Blockchain
                 </p>
                 <div className="mt-3 flex items-center gap-2 text-[11px] text-gray-400 font-medium">
-                  <span>B.Tech CSBS</span>
+                  <span>B.E. EEE</span>
                   <span>•</span>
-                  <span>CGPA 8.0</span>
+                  <span>CGPA 7.7</span>
                 </div>
               </div>
             </div>

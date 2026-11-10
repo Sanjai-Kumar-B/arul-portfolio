@@ -63,18 +63,24 @@ export function Skills() {
   }, []);
 
   const skills = [
-    { name: "Python", category: "Languages", level: "Advanced" },
     { name: "Java", category: "Languages", level: "Advanced" },
+    { name: "SQL (Oracle)", category: "Languages", level: "Advanced" },
+    { name: "MATLAB", category: "Languages", level: "Proficient" },
     { name: "JavaScript", category: "Languages", level: "Advanced" },
-    { name: "React.js", category: "Frontend", level: "Advanced" },
     { name: "HTML & CSS", category: "Frontend", level: "Advanced" },
-    { name: "Node.js", category: "Backend", level: "Advanced" },
-    { name: "Flask", category: "Backend", level: "Proficient" },
+    { name: "React.js", category: "Frontend", level: "Advanced" },
     { name: "MySQL", category: "Databases", level: "Advanced" },
-    { name: "Firebase & Supabase", category: "Databases", level: "Proficient" },
+    { name: "MongoDB", category: "Databases", level: "Proficient" },
+    { name: "Oracle SQL", category: "Databases", level: "Proficient" },
+    { name: "Node.js & Express.js", category: "Backend / Projects", level: "Proficient" },
+    { name: "Spring Boot", category: "Backend / Projects", level: "Proficient" },
+    { name: "ESP32 & IoT", category: "Hardware / Projects", level: "Proficient" },
+    { name: "Socket.IO & Monaco Editor", category: "Projects", level: "Proficient" },
+    { name: "Blockchain", category: "Projects", level: "Proficient" },
     { name: "Git & GitHub", category: "Tools", level: "Advanced" },
-    { name: "Data Structures & Algos", category: "CS Fundamentals", level: "Advanced" },
-    { name: "OOP (Object-Oriented)", category: "CS Fundamentals", level: "Advanced" },
+    { name: "VS Code & Eclipse", category: "Tools", level: "Advanced" },
+    { name: "Simulink", category: "Tools", level: "Proficient" },
+    { name: "Windows PowerShell", category: "Tools", level: "Proficient" },
   ];
 
   return (

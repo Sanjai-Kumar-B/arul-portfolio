@@ -37,10 +37,10 @@ export function Navbar() {
           className="text-white text-2xl font-black tracking-tighter italic uppercase group flex items-center"
         >
           <span className="text-red-600 drop-shadow-[0_0_10px_rgba(220,38,38,0.8)]">
-            S
+            A
           </span>
           <span className="group-hover:text-red-500 transition-colors duration-300">
-            ANJAI.
+            RULKUMAR.
           </span>
         </a>
 
@@ -61,7 +61,7 @@ export function Navbar() {
         {/* Social Quick Link Buttons */}
         <div className="hidden sm:flex items-center gap-3">
           <a
-            href="https://github.com/Sanjai-Kumar-B"
+            href="https://github.com/Arulkumar-07"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-bold uppercase tracking-wider text-gray-300 hover:text-white bg-white/10 hover:bg-[#a31515] px-3.5 py-1.5 rounded-full border border-white/10 hover:border-[#a31515] transition-all duration-300 flex items-center gap-1.5"
@@ -72,7 +72,7 @@ export function Navbar() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/sanjaikumarb"
+            href="https://linkedin.com/in/arulkumar-v"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-bold uppercase tracking-wider text-gray-300 hover:text-white bg-white/10 hover:bg-[#a31515] px-3.5 py-1.5 rounded-full border border-white/10 hover:border-[#a31515] transition-all duration-300 flex items-center gap-1.5"
@@ -125,7 +125,7 @@ export function Navbar() {
           ))}
           <div className="flex items-center gap-3 pt-3 border-t border-gray-800">
             <a
-              href="https://github.com/Sanjai-Kumar-B"
+              href="https://github.com/Arulkumar-07"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs font-bold uppercase tracking-wider text-gray-300 hover:text-white bg-white/10 px-4 py-2 rounded-lg"
@@ -133,7 +133,7 @@ export function Navbar() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/sanjaikumarb"
+              href="https://linkedin.com/in/arulkumar-v"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs font-bold uppercase tracking-wider text-gray-300 hover:text-white bg-white/10 px-4 py-2 rounded-lg"

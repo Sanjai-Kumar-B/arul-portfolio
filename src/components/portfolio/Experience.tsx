@@ -52,54 +52,34 @@ export function Experience() {
 
   const experiences = [
     {
-      role: "Software Engineering Intern",
-      org: "NXRA Insights Pvt. Ltd.",
-      location: "Remote",
-      duration: "2025 – Present",
-      type: "Internship",
+      role: "Free Internship & Placement Integrated Boot Camp",
+      org: "QSpiders",
+      location: "Coimbatore",
+      duration: "Jun – Sep 2026",
+      type: "Boot Camp",
       highlights:
-        "Building scalable web solutions and enterprise application features. Implementing modern responsive frontends and resilient backend API workflows.",
-      badge: "Current",
-    },
-    {
-      role: "E-Pathshala Platform Project (L&D Dept)",
-      org: "SAIL – Steel Authority of India Ltd",
-      location: "Salem",
-      duration: "Jan 2026 – Apr 2026",
-      type: "Enterprise Project",
-      highlights:
-        "Contributed to digital learning platform for employee training. Collaborated closely with the L&D department on system requirements, workflow optimization, and interactive modules.",
+        "Intensive training in core Java, OOP, and software development lifecycle principles. Developed relational database schemas and optimized SQL queries. Solved 100+ algorithmic coding problems on data structures and software efficiency.",
       badge: "Completed",
     },
     {
-      role: "Web Development Trainee",
-      org: "NSIC Web Development Program",
-      location: "Remote",
-      duration: "2025",
+      role: "Software Development Associate",
+      org: "NXRA Insights",
+      location: "Remote / Tamil Nadu",
+      duration: "Mar – Dec 2025",
+      type: "Internship",
+      highlights:
+        "Developed and maintained software components and web modules based on client requirements. Debugged, tested, and collaborated with the development team to deliver quality solutions.",
+      badge: "Completed",
+    },
+    {
+      role: "Industrial Trainee",
+      org: "RealTech Systems",
+      location: "Perundurai",
+      duration: "Jul 2024",
       type: "Training",
       highlights:
-        "Hands-on web engineering focusing on modern frontend architecture, responsive design patterns, HTML5, CSS3, and modern JavaScript techniques.",
+        "Assisted in installing and testing home water level monitoring systems with dedicated sensors. Gained hands-on experience in SMD technology, PCB assembly, sensor integration, and basic electronic troubleshooting.",
       badge: "Certified",
-    },
-    {
-      role: "NIT Trichy Cybersecurity Hackathon",
-      org: "NIT Trichy",
-      location: "Trichy",
-      duration: "2025",
-      type: "Hackathon",
-      highlights:
-        "Engineered secure system architectures and rapid problem-solving prototypes in an intensive 24-hour competitive environment with cross-functional teammates.",
-      badge: "Competitor",
-    },
-    {
-      role: "Datathon Competition",
-      org: "Coimbatore Institute of Technology (CIT)",
-      location: "Coimbatore",
-      duration: "2025",
-      type: "Competition",
-      highlights:
-        "Conducted end-to-end dataset analysis, automated data preprocessing, statistical visualization, and machine learning insight generation for real-world scenarios.",
-      badge: "Competitor",
     },
   ];
 
@@ -128,7 +108,7 @@ export function Experience() {
           className="text-3xl md:text-5xl font-black tracking-tighter uppercase italic text-gray-900"
           style={{ textShadow: "2px 2px 0px #fca5a5" }}
         >
-          EXPERIENCE &amp; HACKATHONS.
+          EXPERIENCE.
         </h2>
         <div className="w-12 h-1 bg-[#a31515] mt-2 rounded-full" />
       </div>
@@ -178,4 +158,3 @@ export function Experience() {
     </section>
   );
 }
-
